@@ -3,4 +3,5 @@ project(Simple_C_Interpreter C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Simple_C_Interpreter main.c)
+add_executable(Simple_C_Interpreter main.c
+        common.h)
